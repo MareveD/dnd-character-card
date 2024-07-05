@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const characterCardTemplate = document.getElementById('character-card-template').content;
 
             data.forEach(character => {
-                // Clone the template
                 const characterCard = document.importNode(characterCardTemplate, true);
 
-                // Populate the template with data
-                characterCard.querySelector('.character-image img').src = character.image;
-                characterCard.querySelector('.character-image img').alt = character.name;
+                const imgElement = characterCard.querySelector('.character-image img');
+                imgElement.src = character.image;
+                imgElement.alt = character.name;
+
                 characterCard.querySelector('.character-name').textContent = character.name;
                 characterCard.querySelector('.character-class').textContent = character.class;
                 characterCard.querySelector('.character-description').textContent = character.description;
@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     statsContainer.appendChild(statElement);
                 });
 
-                // Append the populated template to the container
                 characterCardsContainer.appendChild(characterCard);
             });
         })
