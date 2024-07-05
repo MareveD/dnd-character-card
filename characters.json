@@ -13,7 +13,7 @@
     "skin": "grayish-green",
     "size": "medium",
     "age": 20,
-    "height-weight": "6ft / 175lbs",
+    "height_weight": "6ft / 175lbs",
     "image": "assets/img/dithie.jpg",
     "stats": {
       "Strength": 17,
@@ -38,7 +38,7 @@
     "skin": "Pale, almost pale gray",
     "size": "medium",
     "age": "unknown",
-    "height-weight": "5ft 8in / 130lbs",
+    "height_weight": "5ft 8in / 130lbs",
     "image": "assets/img/mhasha.jpg",
     "stats": {
       "Strength": 9,
@@ -63,7 +63,7 @@
     "skin": "Black, underneath all the feathers",
     "size": "small",
     "age": "14",
-    "height-weight": "3ft / 60lbs",
+    "height_weight": "3ft / 60lbs",
     "image": "assets/img/rezli.jpg",
     "stats": {
       "Strength": 12,
