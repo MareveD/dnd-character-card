@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 Object.entries(character.stats).forEach(([stat, value]) => {
                     const statElement = document.createElement('div');
                     statElement.className = 'stat';
-                    statElement.innerHTML = `<span class="stat-name">${stat}:</span> <span class="stat-value">${value}</span>`;
+                    statElement.innerHTML = `<div class="p-2 rounded-3 bg-primary-subtle"> <span class="stat-name fw-normal text-primary">${stat}</span> <br> <span class="stat-value fw-bold text-primary fs-3">${value}</span></div>`;
                     statsContainer.appendChild(statElement);
                 });
 
