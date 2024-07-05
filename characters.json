@@ -1,27 +1,77 @@
 [
-    {
-      "name": "Dithie the Fearless",
-      "class": "Blood Hunter",
-      "level": 7,
-      "campaign": "Frankish's multiverse",
-      "alignment": "Chaotic Neutral",
-      "faith": "Raven Queen",
-      "gender": "female",
-      "hair": "Black hair, shaved on both sides. Often braided.",
-      "eyes": "Golden eyes",
-      "skin": "grayish-green",
-      "size": "medium",
-      "age": 20,
-      "height-weight": "6ft / 175lbs",
-      "image": "assets/img/dithie.jpg",
-      "stats": {
-        "Strength": 17,
-        "Dexterity": 14,
-        "Constitution": 14,
-        "Intelligence": 12,
-        "Wisdom": 10,
-        "Charisma": 8
-      }
+  {
+    "name": "Dithie the Fearless",
+    "class": "Blood Hunter / Order of the Mutant",
+    "race": "Half-orc",
+    "level": 7,
+    "campaign": "Frankish's multiverse",
+    "alignment": "Chaotic Neutral",
+    "faith": "Raven Queen",
+    "gender": "female",
+    "hair": "Black hair, shaved on both sides. Often braided.",
+    "eyes": "Golden eyes",
+    "skin": "grayish-green",
+    "size": "medium",
+    "age": 20,
+    "height_weight": "6ft / 175lbs",
+    "image": "assets/img/dithie.jpg",
+    "stats": {
+      "Strength": 17,
+      "Dexterity": 14,
+      "Constitution": 14,
+      "Intelligence": 12,
+      "Wisdom": 10,
+      "Charisma": 8
     }
-  ]
-  
+  },
+  {
+    "name": "Mhasha",
+    "class": "Warlock / The Undead",
+    "race": "Fallen Aasimar",
+    "level": 10,
+    "campaign": "Dragonlance Shadow of the Dragon Queen",
+    "alignment": "Neutral",
+    "faith": "None",
+    "gender": "female",
+    "hair": "Black with a white / silver streak",
+    "eyes": "Dark Brown, almost black",
+    "skin": "Pale, almost pale gray",
+    "size": "medium",
+    "age": "unknown",
+    "height_weight": "5ft 8in / 130lbs",
+    "image": "assets/img/mhasha.jpg",
+    "stats": {
+      "Strength": 9,
+      "Dexterity": 14,
+      "Constitution": 14,
+      "Intelligence": 10,
+      "Wisdom": 12,
+      "Charisma": 18
+    }
+  },
+  {
+    "name": "Rezli",
+    "class": "Ranger / Drakewarden",
+    "race": "Owlin",
+    "level": 10,
+    "campaign": "Vecna Eve of Ruin",
+    "alignment": "Neutral",
+    "faith": "None",
+    "gender": "female",
+    "hair": "None, she has many feathers tho!",
+    "eyes": "Golden",
+    "skin": "Black, underneath all the feathers",
+    "size": "small",
+    "age": "14",
+    "height_weight": "3ft / 60lbs",
+    "image": "assets/img/rezli.jpg",
+    "stats": {
+      "Strength": 12,
+      "Dexterity": 18,
+      "Constitution": 17,
+      "Intelligence": 12,
+      "Wisdom": 16,
+      "Charisma": 12
+    }
+  }
+]
