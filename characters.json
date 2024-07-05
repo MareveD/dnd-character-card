@@ -3,16 +3,24 @@
       "name": "Dithie the Fearless",
       "class": "Blood Hunter",
       "level": 7,
-      "campaign": "Frank",
-      "description": "Aragorn is a skilled tracker and fighter, known for his bravery and leadership.",
-      "image": "path-to-aragorn-image.jpg",
+      "campaign": "Frankish's multiverse",
+      "alignment": "Chaotic Neutral",
+      "faith": "Raven Queen",
+      "gender": "female",
+      "hair": "Black hair, shaved on both sides. Often braided.",
+      "eyes": "Golden eyes",
+      "skin": "grayish-green",
+      "size": "medium",
+      "age": 20,
+      "height-weight": "6ft / 175lbs",
+      "image": "assets/img/dithie.jpg",
       "stats": {
-        "Strength": 18,
+        "Strength": 17,
         "Dexterity": 14,
-        "Constitution": 16,
+        "Constitution": 14,
         "Intelligence": 12,
-        "Wisdom": 13,
-        "Charisma": 15
+        "Wisdom": 10,
+        "Charisma": 8
       }
     }
   ]
