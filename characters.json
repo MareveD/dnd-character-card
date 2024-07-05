@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Dithie the Fearless",
+      "class": "Blood Hunter",
+      "level": 7,
+      "campaign": "Frank",
+      "description": "Aragorn is a skilled tracker and fighter, known for his bravery and leadership.",
+      "image": "path-to-aragorn-image.jpg",
+      "stats": {
+        "Strength": 18,
+        "Dexterity": 14,
+        "Constitution": 16,
+        "Intelligence": 12,
+        "Wisdom": 13,
+        "Charisma": 15
+      }
+    }
+  ]
+  
