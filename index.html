@@ -2,57 +2,30 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dungeons & Dragons Character Card</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeons & Dragons Character Cards</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div id="character-cards"></div>
 
-    <div class="character-card">
-
-        <div class="character-image">
-            <img src="path-to-character-image.jpg" alt="Character Image" />
-        </div>
-
-        <div class="character-info">
-
-            <h1 class="character-name">Aragorn</h1>
-            <h2 class="character-class">Ranger</h2>
-            <h3 class="character-campaign"></h3>
-            <p class="character-description">
-                Aragorn is a skilled tracker and fighter, known for his bravery and
-                leadership.
-            </p>
-            <div class="character-stats">
-                <div class="stat">
-                    <span class="stat-name">Strength:</span>
-                    <span class="stat-value">18</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-name">Dexterity:</span>
-                    <span class="stat-value">14</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-name">Constitution:</span>
-                    <span class="stat-value">16</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-name">Intelligence:</span>
-                    <span class="stat-value">12</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-name">Wisdom:</span>
-                    <span class="stat-value">13</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-name">Charisma:</span>
-                    <span class="stat-value">15</span>
-                </div>
+    <template id="character-card-template">
+        <div class="character-card">
+            <div class="character-image">
+                <img src="" alt="">
+            </div>
+            <div class="character-info">
+                <h1 class="character-name"></h1>
+                <h2 class="character-class"></h2>
+                <p class="character-description"></p>
+                <div class="character-stats"></div>
             </div>
         </div>
-    </div>
+    </template>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
