@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('characters.json')
+    fetch('../../characters.json')
         .then(response => response.json())
         .then(data => {
             const characterCardsContainer = document.getElementById('character-cards');
