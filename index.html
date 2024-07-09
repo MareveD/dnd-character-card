@@ -13,12 +13,12 @@
 
 <body class="bg-dark">
 
-    <section class="header container-lg py-5">
-        <h1 class="display-1 text-white">Title</h1>
-        <h2 class="display-4 text-info">Subtitle</h2>
-        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore
-            magna aliqua.</p>
+    <section class="header container-lg py-5 text-center">
+        <h1 class="display-1 text-white">
+            <i class="bi bi-stars"></i>
+            Character Cards <i class="bi bi-stars"></i></h1>
+        <h2 class="display-4 text-info">Dungeons & Dragons</h2>
+        <p class="text-white">List of my current characters.</p>
     </section>
 
     <section class="characters container-lg d-flex flex-column row-gap-5" id="character-cards"></section>
@@ -38,15 +38,17 @@
                             <i class="bi bi-geo-alt"></i> <span class="character-campaign"></span>
                         </h4>
 
-                        <div class="d-flex align-items-end column-gap-3">
-                            <h2 class="character-name card-title display-4 text-black mb-0"></h2>
-                            <h3 class="card-title display-6 text-primary mb-1"><span class="character-race"></span></h3>
+                        <div class="d-flex align-items-baseline justify-content-start flex-wrap">
+                            <h2 class="character-name card-title display-4 text-black mb-0 pe-2"></h2>
+                            <h3 class="card-title display-6 text-primary mb-0"><span class="character-race"></span></h3>
                         </div>
 
                         <h3 class="card-title display-6 text-dark mb-5 mt-3 fw-light fs-4 text-uppercase"> <i
                                 class="bi bi-chevron-right"></i>
                             Level
                             <span class="character-level"></span> <span class="character-class"></span></h3>
+
+                        <hr>
 
                         <div class="basic-description card-text text-secondary">
                             <p class="mb-1 fw-bold">Alignment: <span class="character-alignment fw-normal"></span></p>
@@ -60,7 +62,9 @@
                                     class="character-height-weight fw-normal"></span></p>
                         </div>
 
-                        <h3 class="display-6 text-dark mt-5 mb-3">Statistics</h3>
+                        <hr>
+
+                        <h3 class="display-6 text-dark mt-4 mb-3">Statistics</h3>
                         <div
                             class="character-stats text-secondary d-flex flex-row flex-wrap column-gap-3 row-gap-3 text-uppercase text-center">
                         </div>
